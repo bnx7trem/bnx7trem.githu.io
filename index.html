@@ -8,38 +8,39 @@
         }
        
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             min-height: 100vh;
             display: flex;
             flex-direction: column;
         }
        
         header {
-            background-color: #2c3e50;
-            color: white;
+            background-color: #ffb7c5; /* Rosa Pastel */
+            color: #5d4037;
             padding: 20px;
             text-align: center;
+            border-bottom: 5px solid #ff9aa2;
         }
        
         h1 {
             text-align: center;
             margin: 20px 0;
-            color: #2c3e50;
+            color: #5d4037;
         }
        
         section {
             width: 100%;
             flex: 1;
-            background-color: #f0f0f0;
+            background-color: #fff9f0;
             display: flex;
             min-height: 500px;
         }
        
         #primeiro {
             width: 20%;
-            background-color: #e8f4f8;
+            background-color: #f0f4ff; /* Azul Pastel */
             padding: 20px;
-            border-right: 1px solid #ccc;
+            border-right: 1px solid #ddd;
         }
        
         #segundo {
@@ -50,181 +51,184 @@
        
         #terceiro {
             width: 20%;
-            background-color: #e8f4f8;
+            background-color: #f0fff0; /* Verde Pastel */
             padding: 20px;
-            border-left: 1px solid #ccc;
+            border-left: 1px solid #ddd;
         }
        
         footer {
-            background-color: #2c3e50;
+            background-color: #5d4037;
             color: white;
             text-align: center;
             padding: 15px;
             margin-top: 20px;
         }
        
-        .moeda {
-            background-color: #3498db;
+        .sabor {
+            background-color: #ff9aa2;
             color: white;
             padding: 10px;
             margin: 10px 0;
             border-radius: 5px;
             text-align: center;
             cursor: pointer;
+            font-weight: bold;
         }
        
-        .moeda:hover {
-            background-color: #2980b9;
+        .sabor:hover {
+            background-color: #ffb7c5;
         }
        
-        .conversor {
-            background-color: #ecf0f1;
+        .calculadora {
+            background-color: #fdf2f2;
             padding: 20px;
             border-radius: 10px;
             margin-top: 20px;
+            border: 2px dashed #ff9aa2;
         }
        
         input, select, button {
-            padding: 10px;
+            padding: 12px;
             margin: 10px 0;
             width: 100%;
             font-size: 16px;
+            border-radius: 8px;
+            border: 1px solid #ccc;
         }
        
         button {
-            background-color: #27ae60;
+            background-color: #ff9aa2;
             color: white;
             border: none;
             cursor: pointer;
+            font-weight: bold;
+            font-size: 18px;
         }
        
         button:hover {
-            background-color: #219a52;
+            background-color: #ffb7b7;
         }
        
         .resultado {
-            background-color: #d5f5e3;
+            background-color: #e8f5e9;
             padding: 15px;
             border-radius: 5px;
             margin-top: 15px;
             text-align: center;
             font-weight: bold;
+            color: #2e7d32;
         }
        
         .dica {
-            background-color: #f9e79f;
+            background-color: #fffde7;
             padding: 10px;
             border-radius: 5px;
             margin: 10px 0;
             font-size: 14px;
+            color: #795548;
         }
        
         h5 {
             font-size: 24px;
-            color: #2c3e50;
+            color: #5d4037;
             margin-bottom: 15px;
         }
     </style>
 </head>
 <body>
     <header>
-        <h2>💱 Portal do Câmbio</h2>
-        <p>Entenda como funciona a troca de moedas no mundo</p>
+        <h2>🍦 Sorveteria Delícia Gelada</h2>
+        <p>O lugar mais doce da cidade!</p>
     </header>
    
-    <h1>📈 Câmbio de Moedas</h1>
+    <h1>🍨 Monte seu Sorvete</h1>
    
     <section>
         <div id="primeiro">
-            <h3>💡 Curiosidades</h3>
+            <h3>🍒 Coberturas Grátis</h3>
             <div class="dica">
-                <strong>Dólar Americano (USD)</strong><br>
-                É a moeda mais negociada do mundo, presente em 88% das transações globais.
+                <strong>Calda de Chocolate</strong><br>
+                Feita com cacau 50%.
             </div>
             <div class="dica">
-                <strong>Euro (EUR)</strong><br>
-                Moeda oficial de 20 países da União Europeia.
+                <strong>Granulado Colorido</strong><br>
+                A alegria das crianças!
             </div>
             <div class="dica">
-                <strong>Libra Esterlina (GBP)</strong><br>
-                É a moeda mais antiga do mundo ainda em uso.
-            </div>
-            <div class="dica">
-                <strong>Iene Japonês (JPY)</strong><br>
-                Terceira moeda mais negociada no mercado global.
+                <strong>Farofa de Amendoim</strong><br>
+                Crocante e fresquinha.
             </div>
         </div>
        
         <div id="segundo">
-            <h5>💰 O que é o câmbio de moedas?</h5>
-            <p>Câmbio de moedas é a troca de uma moeda por outra. Ele acontece o tempo todo no mundo, seja quando uma empresa importa produtos, um turista viaja para outro país ou investidores aplicam seu dinheiro no exterior.</p>
+            <h5>🍦 Nossos Sabores Artesanais</h5>
+            <p>Trabalhamos com frutas selecionadas e leite fresco para garantir a cremosidade que você merece.</p>
            
-            <p>O valor de uma moeda em relação a outra é chamado de <strong>taxa de câmbio</strong>. Essa taxa varia diariamente conforme a oferta e demanda, a economia dos países, juros, inflação e até notícias políticas.</p>
-           
-            <h3 style="margin-top: 20px;">🔄 Tipos de câmbio</h3>
+            <h3 style="margin-top: 20px;">📋 Tabela de Preços</h3>
             <ul style="margin-left: 20px; line-height: 1.8;">
-                <li><strong>Câmbio Fixo:</strong> o governo define o valor da moeda. Exemplo: Arábia Saudita (SAR atrelado ao USD).</li>
-                <li><strong>Câmbio Flutuante:</strong> o valor é definido pelo mercado. Exemplo: Real (BRL), Dólar (USD), Euro (EUR).</li>
-                <li><strong>Câmbio Administrado:</strong> mistura dos dois, com intervenção do banco central.</li>
+                <li><strong>Pequeno (1 bola):</strong> R$ 7,00</li>
+                <li><strong>Médio (2 bolas):</strong> R$ 12,00</li>
+                <li><strong>Grande (3 bolas):</strong> R$ 16,00</li>
             </ul>
            
-            <div class="conversor">
-                <h3>🧮 Conversor de Moedas (exemplo didático)</h3>
-                <p>Digite um valor em Reais (BRL) e veja a conversão aproximada:</p>
-                <input type="number" id="valorReal" placeholder="Valor em R$">
-                <select id="moedaDestino">
-                    <option value="0.18">Dólar (USD) - R$ 1 ≈ $ 0,18</option>
-                    <option value="0.17">Euro (EUR) - R$ 1 ≈ € 0,17</option>
-                    <option value="0.15">Libra (GBP) - R$ 1 ≈ £ 0,15</option>
-                    <option value="27.50">Iene (JPY) - R$ 1 ≈ ¥ 27,50</option>
+            <div class="calculadora">
+                <h3>🧮 Simule seu Pedido</h3>
+                <p>Escolha o tamanho e a quantidade:</p>
+                <select id="tamanhoSorvete">
+                    <option value="7">Pequeno (1 bola) - R$ 7,00</option>
+                    <option value="12">Médio (2 bolas) - R$ 12,00</option>
+                    <option value="16">Grande (3 bolas) - R$ 16,00</option>
                 </select>
-                <button onclick="converter()">Converter</button>
+                <input type="number" id="quantidade" placeholder="Quantos sorvetes?" min="1">
+                <button onclick="calcularTotal()">Calcular Valor</button>
                 <div id="resultado" class="resultado"></div>
             </div>
         </div>
        
         <div id="terceiro">
-            <h3>📊 Cotações aproximadas</h3>
-            <div class="moeda" onclick="alert('Dólar comercial: cerca de R$ 5,50')">
-                🇺🇸 USD → R$ 5,50
+            <h3>🌟 Favoritos</h3>
+            <div class="sabor" onclick="alert('Morango Silvestre: R$ 7,00 por bola')">
+                🍓 Morango
             </div>
-            <div class="moeda" onclick="alert('Euro comercial: cerca de R$ 6,00')">
-                🇪🇺 EUR → R$ 6,00
+            <div class="sabor" onclick="alert('Chocolate Belga: R$ 7,00 por bola')">
+                🍫 Chocolate
             </div>
-            <div class="moeda" onclick="alert('Libra: cerca de R$ 7,00')">
-                🇬🇧 GBP → R$ 7,00
+            <div class="sabor" onclick="alert('Ninho com Nutella: R$ 8,50 por bola (Premium)')">
+                🥛 Ninho c/ Nutella
             </div>
-            <div class="moeda" onclick="alert('Iene: cerca de R$ 0,036')">
-                🇯🇵 JPY → R$ 0,036
+            <div class="sabor" onclick="alert('Pistache: R$ 9,00 por bola (Premium)')">
+                🟢 Pistache
             </div>
             <div class="dica" style="margin-top: 20px;">
-                <strong>⚠️ Importante:</strong> Os valores acima são apenas exemplos didáticos. As cotações reais mudam constantemente.
+                <strong>⚠️ Alérgicos:</strong> Nossos sorvetes podem conter traços de leite e castanhas.
             </div>
         </div>
     </section>
    
     <footer>
-        <p>Projeto educacional - Entendendo o mercado de câmbio | Desenvolvido em sala de aula</p>
-        <p>💡 As moedas flutuam diariamente conforme a economia global</p>
+        <p>Projeto Sorveteria - Desenvolvido para aula de Web Design</p>
+        <p>🍦 Aberto todos os dias das 10h às 22h</p>
     </footer>
 
     <script>
-        function converter() {
-            let reais = document.getElementById('valorReal').value;
-            let select = document.getElementById('moedaDestino');
-            let taxa = select.value;
-            let moedaNome = select.options[select.selectedIndex].text;
+        function calcularTotal() {
+            let precoTamanho = document.getElementById('tamanhoSorvete').value;
+            let qtd = document.getElementById('quantidade').value;
+            let res = document.getElementById('resultado');
            
-            if (reais === "" || reais <= 0) {
-                document.getElementById('resultado').innerHTML = "⚠️ Por favor, digite um valor válido!";
-                document.getElementById('resultado').style.backgroundColor = "#fadbd8";
+            if (qtd === "" || qtd <= 0) {
+                res.innerHTML = "⚠️ Informe uma quantidade válida!";
+                res.style.backgroundColor = "#fadbd8";
+                res.style.color = "#c0392b";
                 return;
             }
            
-            let convertido = reais * taxa;
-            document.getElementById('resultado').innerHTML = `R$ ${reais} equivalem a ${convertido.toFixed(2)} ${moedaNome}`;
-            document.getElementById('resultado').style.backgroundColor = "#d5f5e3";
+            let total = precoTamanho * qtd;
+            res.innerHTML = `Total do Pedido: R$ ${total.toFixed(2)}`;
+            res.style.backgroundColor = "#e8f5e9";
+            res.style.color = "#2e7d32";
         }
     </script>
 </body>
 </html>
+
